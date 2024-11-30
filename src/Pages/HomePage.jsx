@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "../components/UI/HeroSection";
+import About from "./AboutPage";
 
 function Home() {
   return (
-    <div>
-      <h1>HomePage</h1>
-    </div>
-  )
+    <>
+      <HeroSection />
+      <About />
+    </>
+  );
 }
 
-export default Home
+export default Home;
